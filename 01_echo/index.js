@@ -24,6 +24,12 @@ bot.on('text', ctx => {
     } else {
         ctx.reply('UNVERIFIED CLAIM: ' + ctx.message.text);
     }
+
+    if (Math.random < .1){
+        ctx.reply('È uscito un numero minore di 0.1');
+    } else {
+        ctx.reply('È uscito un numero minore di 0.1');
+    }
 });
 
 bot.launch();
